@@ -1,0 +1,15 @@
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\WWCI.V1.csproj.AssemblyReference.cache
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\WWCI.V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\WWCI.V1.AssemblyInfoInputs.cache
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\WWCI.V1.AssemblyInfo.cs
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\WWCI.V1.csproj.CoreCompileInputs.cache
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\bin\Debug\net6.0\WWCI.V1.exe
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\bin\Debug\net6.0\WWCI.V1.deps.json
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\bin\Debug\net6.0\WWCI.V1.runtimeconfig.json
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\bin\Debug\net6.0\WWCI.V1.dll
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\bin\Debug\net6.0\WWCI.V1.pdb
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\WWCI.V1.dll
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\refint\WWCI.V1.dll
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\WWCI.V1.pdb
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\WWCI.V1.genruntimeconfig.cache
+C:\Users\Assea\source\repos\WWCI.V1\WWCI.V1\obj\Debug\net6.0\ref\WWCI.V1.dll
