@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Net.Sockets;
+using Newtonsoft.Json;
 
 namespace PavlovRcon
 {
@@ -22,6 +23,18 @@ namespace PavlovRcon
         SGA = 3
     }
 
+    public class PlistModel
+    {
+        public string[]? PlayerList { get; set; }
+        public bool Successful { get; set; }
+    }
+
+    public class IlistModel
+    {
+        public string[]? ItemList { get; set; }
+        public bool Successful { get; set; }
+    }
+
     class RConnection
     {
         TcpClient tcpSocket;
@@ -33,6 +46,8 @@ namespace PavlovRcon
             tcpSocket = new TcpClient(Hostname, Port);
 
         }
+
+
 
         public void Login(string MD5SUM)
         {
@@ -50,6 +65,30 @@ namespace PavlovRcon
 
         }
 
+        public string[] PlayerList()
+        {
+            string[] NP = { "No Players Connected"};
+            if (!tcpSocket.Connected) Console.WriteLine("Not Connected");
+            if (!tcpSocket.Connected) throw new Exception("Connection Failure");
+            Command("RefreshList");
+            string PList = Read();
+            //Console.WriteLine(PList);
+            PlistModel p = JsonConvert.DeserializeObject<PlistModel>(PList);
+            return p.PlayerList;
+        }
+        
+        public string[] ItemList()
+        {
+            if (!tcpSocket.Connected) Console.WriteLine("Not Connected");
+            if (!tcpSocket.Connected) throw new Exception("Connection Failure");
+            Command("ItemList");
+            string IList = Read();
+            //Console.WriteLine(IList);
+            IlistModel i = JsonConvert.DeserializeObject<IlistModel>(IList);
+            return i.ItemList;
+
+        }
+        
         public void Command(string cmd)
         {
             Write(cmd + "\n");

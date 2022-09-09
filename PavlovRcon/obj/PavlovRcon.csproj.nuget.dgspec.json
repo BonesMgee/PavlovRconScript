@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Assea\\source\\repos\\PavlovRcon\\PavlovRcon\\PavlovRcon.csproj": {}
+    "C:\\Users\\Assea\\Documents\\GITRepos\\PavlovRconScript\\PavlovRcon\\PavlovRcon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Assea\\source\\repos\\PavlovRcon\\PavlovRcon\\PavlovRcon.csproj": {
+    "C:\\Users\\Assea\\Documents\\GITRepos\\PavlovRconScript\\PavlovRcon\\PavlovRcon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Assea\\source\\repos\\PavlovRcon\\PavlovRcon\\PavlovRcon.csproj",
+        "projectUniqueName": "C:\\Users\\Assea\\Documents\\GITRepos\\PavlovRconScript\\PavlovRcon\\PavlovRcon.csproj",
         "projectName": "PavlovRcon",
-        "projectPath": "C:\\Users\\Assea\\source\\repos\\PavlovRcon\\PavlovRcon\\PavlovRcon.csproj",
+        "projectPath": "C:\\Users\\Assea\\Documents\\GITRepos\\PavlovRconScript\\PavlovRcon\\PavlovRcon.csproj",
         "packagesPath": "C:\\Users\\Assea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Assea\\source\\repos\\PavlovRcon\\PavlovRcon\\obj\\",
+        "outputPath": "C:\\Users\\Assea\\Documents\\GITRepos\\PavlovRconScript\\PavlovRcon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
